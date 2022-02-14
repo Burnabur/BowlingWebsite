@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Language" content="en">
+  <script src="script.js"></script>
+  <script src="gallery.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <title>BowlinGland</title>
+</head>
+<body>
+
+  <div class="container">
+    <img src="pic.jpg" alt="pic" style="width:100%;">
+    <div class="content">
+      <div class="caption">
+        <h1 class="neontext">
+          <center>Bowling, Billard, Jeux d'Arcade, Bar</center>
+        </h1>
+        <p>Nous Contacter:<br>
+          Numéro de Téléphone: 022 999 60 20<br>
+          E-mail: contact@bowlingland.ch<br>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'overview')">
+      <font size="+1">APERCU</font>
+    </button>
+    <button class="tablinks" onclick="openTab(event, 'menu')">
+      <font size="+1">MENU</font>
+    </button>
+    <button class="tablinks" onclick="openTab(event, 'gallery')">
+      <font size="+1">GALERIE</font>
+    </button>
+    <button class="tablinks" onclick="openTab(event, 'reservations')">
+      <font size="+1">RESERVATIONS</font>
+    </button>
+    <button class="tablinks" onclick="openTab(event, 'contact')">
+      <font size="+1">NOUS CONTACTER</font>
+    </button>
+    <button class="tablinks" onclick="openTab(event, 'about')">
+      <font size="+1">A PROPROS DE NOUS</font>
+    </button>
+  </div>
+
+  <div class="tabcontent" id="overview" class="active">
+    <div id="INTROvideo">
+      <video loop muted autoplay>
+        <source src="INTRO.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="grid">
+      <div id="grid1" class="grid-1">
+        <img src="HOURS.jpg" alt="HOURS" width="100%" height="100%">
+      </div>
+
+      <div id="grid2" class="grid-2">
+        <h2 class="neontext">
+          <center>BOWLINGLAND</center>
+        </h2>
+        <center>
+          <h2>Ce que nous avons à offrir:</h2>
+            12 pistes de bowling, facile d'accès<br><br>
+            Jeux d'arcade<br><br>
+            Salle de billard et de pool avec des tournois tous les mois<br><br>
+            Bar (plats à emporter ou à consommer sur place)<br><br>
+            Sièges et salons en plein air<br><br>
+            Événements<br><br>
+            Accueil d'anniversaires<br><br>
+            Tournois de bowling<br><br>
+            Événements d'entreprise<br><br>
+            Entraînement et leçons de bowling professionnel<br><br>
+            Accès à un restaurant asiatique de premier ordre<br><br>
+            Club de bowling<br><br>
+        </center>
+        <h2 class="neontext">
+          <center>RESERVEZ TON PISTES</center>
+        </h2>
+        <center>
+          Réservez vos pistes <button class="tablinks" onclick="openTab(event, 'reservations')">ici</button>.<br>
+          Adresse: avenue du Mont-Blanc 38, Gland, Switzerland<br>
+          Numéro de contact: 022 999 60 20<br>
+          E-mail: contact@bowlingland.ch<br>
+        </center>
+      </div>
+
+      <div id="grid2" class="grid-2">
+        <h2 class="neontext">
+          <center>EVENEMENTS</center>
+        </h2>
+        <h3>
+          <center><br>
+            Tournois officiels de billard chinois chaque mois!<br><br>
+            Expositions de voitures!<br><br>
+            Soirées karaoké!<br><br>
+            Compétitions!<br><br>
+          </center>
+        </h3>
+        <p>
+            PARTENARIAT AVEC MCDONALDS : équipe compétitive sponsorisée! Grâce à McDonalds, notre équipe de bowling peut participer à des tournois et s'épanouir. Cliquez <a href="https://rmhc.ch/sponsoren-partner">ici</a> pour plus d'informations sur les équipes locales sponsorisées.<br><br>
+            
+            Pour plus d'informations sur un partenariat avec nous ou la promotion de vos services, veuillez nous contacter par e-mail.<br><br>
+            Consultez notre page Facebook pour plus d'informations.
+        <section>
+          <div class="wrapper">
+            <div class="buttonicon">
+              <div class="icons">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <a href="https://www.instagram.com/bowlingland.suisse/?hl=en"><span>Instagram</span></a>
+            </div>
+
+            <div class="buttonicon">
+              <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <a href="https://www.facebook.com/bowlinglandsuisse"><span>Facebook</span></a>
+            </div>
+          </div>
+        </section>
+        </p>
+      </div>
+
+      <div id="grid2" class="grid-2">
+        <h2 class="neontext">
+          <center>OU NOUS SOMMES SITUES</center>
+        </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2750.7401244657103!2d6.27111175095276!3d46.41420797902118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c4379a88acaaf%3A0xbfbc64f5010c77c6!2sAv.%20du%20Mont-Blanc%2038%2C%201196%20Gland!5e0!3m2!1sen!2sch!4v1643652173354!5m2!1sen!2sch" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabcontent" id="menu">
+    <h1 class="neontext">
+      <center>Nourriture et Boissons</center>
+    </h1>
+    <br>
+    <center><img class="neonmenu" src="MENU.jpg" alt="MENU" width="60%" height="60%"></center>
+    <a href="menuPDF.pdf" download>
+      <br><br>
+      <center>Cliquez ici pour télécharger le menu</center><br><br><br>
+    </a>
+  </div>
+
+  <div class="tabcontent" id="gallery">
+    <h1 class="neontext">
+      <center>Galerie d'Images</center>
+    </h1>
+    <ul style="list-style: none;">
+      <li><img src="bowler1.jpg" alt="bowler1"></li>
+      <li><img src="bowler2.jpg" alt="bowler2"></li>
+      <li><img src="bowler3.jpg" alt="bowler3"></li>
+      <li><img src="bowler4.jpg" alt="bowler4"></li>
+      <li><img src="bowler5.jpg" alt="bowler5"></li>
+      <li><img src="bowler6.jpg" alt="bowler6"></li>
+      <li><img src="bowler7.jpg" alt="bowler7"></li>
+      <li><img src="arcade1.jpg" alt="arcade1"></li>
+      <li><img src="arcade2.jpg" alt="arcade2"></li>
+      <li><img src="arcade3.jpg" alt="arcade3"></li>
+      <li><img src="arcade4.jpg" alt="arcade4"></li>
+      <li><img src="arcade5.jpg" alt="arcade5"></li>
+      <li><img src="awards.jpg" alt="awards"></li>
+      <li><img src="bar.jpg" alt="bar"></li>
+      <li><img src="billiards1.jpg" alt="billiards1"></li>
+      <li><img src="newspaper2.jpg" alt="newspaper2"></li>
+      <li><img src="kitoffer.jpg" alt="kitoffer"></li>
+      <li><img src="balloffer.jpg" alt="balloffer"></li>
+      <li><img src="newspaper1.jpg" alt="newspaper1"></li>
+    </ul>
+  </div>
+
+  <div class="tabcontent" id="reservations">
+    <h1 class="neontext">
+      <center>Faire une Réservation</center>
+    </h1>
+    <form onsubmit="sendEmail()" method="post">
+      <div class="elem-group">
+        <label for="firstname">Prenom</label>
+        <input type="text" id="firstname" name="visitor_first_name">
+      </div>
+      <div class="elem-group">
+        <label for="lastname">Nom</label>
+        <input type="text" id="lastname" name="visitor_last_name">
+      </div>
+      <div class="elem-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="visitor_email">
+      </div>
+      <div class="elem-group">
+        <label for="room-selection">Sélectionnez l'objet de la réservation</label>
+        <select id="room-selection" name="room_preference">
+          <option value="">Choisissez une option dans la liste</option>
+          <option value="birthday">Fête d'anniversaire</option>
+          <option value="enterprise">Enterprise</option>
+          <option value="private">Privatisation</option>
+        </select>
+      </div>
+      <div class="elem-group">
+        <label for="lanes">Nombre des pistes</label>
+        <input type="number" id="lanes" name="total_lanes">
+      </div>
+      <div class="elem-group">
+        <label for="checkin-date">Date</label>
+        <input type="date" id="checkin-date" name="checkin">
+      </div>
+      <div class="elem-group">
+        <label for="time">Heure</label>
+        <input type="text" id="time" name="visitor_time">
+      </div>
+      <div class="elem-group">
+        <label for="in-house-catering">Restauration interne (voir menu):</label>
+        <select id="in-house-catering" name="catering">
+          <option value="">Choisissez une option dans la liste</option>
+          <option value="birthday">Yes</option>
+          <option value="enterprise">No</option>
+        </select>
+      </div>
+      <div class="elem-group">
+        <label for="eventchoice">Accès à d'autres événements (billard, arcade, etc):</label>
+        <select id="eventchoice" name="event_booking">
+          <option value="">Choisissez une option dans la liste</option>
+          <option value="birthday">Yes</option>
+          <option value="enterprise">No</option>
+        </select>
+      </div>
+      <div class="elem-group">
+        <label for="paymentmethod">Mode de Paiement:</label>
+        <select id="paymentmethod" name="payment_choice">
+          <option value="">Choisissez une option dans la liste</option>
+          <option value="birthday">Chèque par email</option>
+          <option value="enterprise">Paiement en personne</option>
+        </select>
+      </div>
+      <div class="elem-group">
+        <label for="message">Commentaires supplémentaires</label>
+        <textarea id="message" name="visitor_message"></textarea>
+      </div>
+      <br>
+      <center><button type="submit" class="formbutton">Réserver</button></center><br>
+    </form>
+  </div>
+
+  <div class="tabcontent" id="contact">
+    <h1 class="neontext">
+      <center>Nous Contacter / Inscrire à Notre Bulletin</center>
+    </h1>
+    <form action="contact.php" method="post">
+      <div class="elem-group">
+        <label for="firstname">Prenom</label>
+        <input type="text" id="firstname" name="visitor_first_name">
+      </div>
+      <div class="elem-group">
+        <label for="lastname">Nom</label>
+        <input type="text" id="lastname" name="visitor_last_name">
+      </div>
+      <div class="elem-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="visitor_email">
+      </div>
+      <div class="elem-group">
+        <label for="inquiry">Type de Demande</label>
+        <select id="inquiry" name="inquirytype">
+          <option value="">Choisissez une option dans la liste</option>
+          <option value="birthday">Newsletter (uniquement pour les offres ou les ventes)</option>
+          <option value="enterprise">Demande d'Informations</option>
+        </select>
+      </div>
+      <div class="elem-group">
+        <label for="contactmessage">Commentaires supplémentaires</label>
+        <textarea id="contactmessage" name="contactmessage"></textarea>
+      </div>
+      <br>
+      <center><button type="submit" class="formbutton">Envoyer le Formulaire</button></center><br>
+    </form>
+  </div>
+
+  <div class="tabcontent" id="about">
+    <h1 class="neontext">
+      <center>A Propos de Nous</center>
+    </h1>
+    <br>
+    <center><img src="stars.png" height="70px" width="250px">
+      <p>Donné par 354 Evaluateurs</p>
+    </center>
+    <center>Profitez de nos prix compétitifs pour passer un bon moment entre amis, en famille ou entre collègues.</center><br><br>
+
+    <div class="grid">
+      <div id="grid5" class="grid-5">
+        <h4>
+          <center><img src="clarke.jpg" width="auto" height="auto"><br>Christopher Clarke, champion junior de bowling, pose avec son trophée de première place.</center><br>
+            Le BowlinGland, ouvert 7/7 365 jours par an, vous accueille pour une séance de bowling ou des jeux d'arcade.<br><br>
+            Le bowling est une excellente activité pour travailler sa concentration, il développe également un sentiment de calme intérieur. BowlinGland s'adapte à toutes vos idées de sorties en famille, entre amis ou entre collègues, avec ses pistes homologuées, ses salles de billard et ses jeux d'arcade.<br><br>
+            Nous accueillons les soirées vaudoises depuis près de 20 ans, et proposons depuis de multiples soirées musicales, des tournois, et la pratique de vos activités préférées.<br><br>
+            En plus des douze pistes de bowling équipées de matériel de pointe, deux salles de billard équipées de sept tables vous permettent de jouer aux jeux traditionnels ou de vous essayer au billard chinois. BowlinGland propose même des cours de bowling et de billard (nous accueillons également le champion suisse junior de bowling, Christopher Clarke)!
+
+        </h4>
+      </div>
+      <div id="grid6" class="grid-6">
+        <h4>
+          <center><img src="le133.jpg" width="60%" height="60%"></center><br>
+            (Pour les enfants et ceux qui sont encore jeunes de cœur, il est impossible de manquer la douzaine de jeux d'arcade. Nous organisons également de nombreux événements, tels que des fêtes d'anniversaire, des soirées, des réunions d'affaires, etc. Pour un anniversaire qui roule comme sur une piste de bowling, la formule de BowlinGland comprend une partie pour le roi ou la reine du jour et ses amis, un accès gratuit aux jeux d'arcade et un délicieux gâteau!<br><br>
+            Côté restauration, le bar prépare des repas, des snacks, des boissons, etc. Les amateurs de saveurs exotiques apprécieront les sushis et les plats asiatiques livrés par le restaurant du 333.<br><br>
+            Nous sommes ouverts en toute saison, et nous sommes situés dans un endroit très accessible à Gland, VD.
+        </h4>
+      </div>
+
+      </p>
+    </div>
+
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script>
+     function sendEmail(){
+        Email.send({
+            Host : "smtp.yourisp.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "you@isp.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+    }
+ </script>
+
+</body>
+
+</html>
